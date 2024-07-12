@@ -28,9 +28,14 @@ body {
 }
 
 #grid-container {
-    height: 960px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex:0 0 auto;
+    border: solid teal 1px;
+        height: 960px;
     width: 960px;
-    border: solid red 2px;
+
 }
 
 #configurator-wrapper {
@@ -38,4 +43,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.grid-element {
+    box-sizing: border-box;
+    border: solid teal 1px;
+    background-color: black;
 }
