@@ -33,8 +33,9 @@ body {
     flex-wrap: wrap;
     flex:0 0 auto;
     border: solid teal 1px;
-        height: 960px;
+    height: 960px;
     width: 960px;
+    background-color:darkcyan;
 
 }
 
@@ -48,5 +49,6 @@ body {
 .grid-element {
     box-sizing: border-box;
     border: solid teal 1px;
-    background-color: black;
+    background-color: gray;
+    opacity: 1;
 }
