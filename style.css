@@ -11,6 +11,7 @@ html, body {
     background-color: rgba(42, 54, 66, 0.75);
     height: 100%;
     color: white;
+    
 
 }
 
@@ -33,8 +34,8 @@ body {
     flex-wrap: wrap;
     flex:0 0 auto;
     border: solid teal 1px;
-    height: 960px;
-    width: 960px;
+    height: 576px;
+    width: 576px;
     background-color:darkcyan;
 
 }

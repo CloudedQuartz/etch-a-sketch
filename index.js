@@ -4,7 +4,7 @@ function darkenElement(e) {
 }
 
 function generateGrid(gridSize) {
-    gridSquareSize = 960 / gridSize
+    gridSquareSize = 768 / gridSize
     gridElem = document.createElement('div')
     gridElem.className = "grid-element";
     gridElem.style.height = gridSquareSize + 'px'
@@ -12,8 +12,8 @@ function generateGrid(gridSize) {
     container = document.getElementById("grid-container")
     container.innerHTML = ''
 
-    for (let i = 0; i < 960; i += gridSquareSize) {
-        for (let j = 0; j < 960; j += gridSquareSize) {
+    for (let i = 0; i < 576; i += gridSquareSize) {
+        for (let j = 0; j < 576; j += gridSquareSize) {
             let toAppendElem = gridElem.cloneNode()
             toAppendElem.onmouseover = (e) => darkenElement(e)
             container.appendChild(toAppendElem);
